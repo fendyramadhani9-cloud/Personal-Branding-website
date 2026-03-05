@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contact | Fendy Ramadhani</title>
+
+<link rel="stylesheet" href="css/home.css">
+<link rel="stylesheet" href="css/contact.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicon@2.15.1/devicon.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+</head>
+
+<body>
+
+<div id="particles-js"></div>
+
+
+<!-- NAVBAR -->
+<!-- 
+  FIX: nav-indicator dipindah ke luar <ul>, dibungkus .nav-wrapper
+  agar posisi relative/absolute-nya tidak bentrok dengan <li> items
+-->
+<nav class="navbar">
+
+  <div class="logo">Venzone.id</div>
+
+  <div class="nav-wrapper">
+    <div class="nav-indicator"></div>
+
+    <ul class="nav-menu">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </div>
+
+</nav>
+
+
+<!-- CONTACT HEADER -->
+
+<section class="contact-header">
+
+  <h1>Contact Me</h1>
+
+  <p>
+    Let's collaborate on AI, Cloud Computing,
+    or IoT development projects.
+  </p>
+
+</section>
+
+
+<!-- CONTACT SECTION -->
+
+<section class="contact-container">
+
+  <div class="contact-info">
+
+    <h3>Email</h3>
+    <p>fendyramadhani9@gmail.com</p>
+
+    <h3>WhatsApp</h3>
+    <p>Chat me directly</p>
+
+    <h3>Location</h3>
+    <p>Indonesia</p>
+
+  </div>
+
+
+  <div class="contact-form">
+
+    <form id="contactForm">
+
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+
+      <button type="submit">
+        Send Message
+      </button>
+
+    </form>
+
+    <p id="status"></p>
+
+  </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+  <h3>Connect With Me</h3>
+
+  <div class="social-links">
+
+    <a href="https://www.instagram.com/fendy_tech?igsh=MWlmNHpkcXRpemxhNw==" target="_blank">
+      <i class="fab fa-instagram"></i>
+    </a>
+
+    <a href="https://www.tiktok.com/@fendyramadhani2?_r=1&_t=ZS-94PizY57QhT" target="_blank">
+      <i class="fab fa-tiktok"></i>
+    </a>
+
+    <a href="https://wa.me/qr/IC44IRUVDX75C1" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <a href="https://github.com/fendyramadhani9-cloud/fendyramadhani9-cloud" target="_blank">
+      <i class="fab fa-github"></i>
+    </a>
+
+    <a href="https://medium.com/@24.tjkt1.16" target="_blank">
+      <i class="fab fa-medium"></i>
+    </a>
+
+    <a href="#">
+      <i class="fab fa-linkedin"></i>
+    </a>
+
+  </div>
+
+  <p class="copyright">
+    © 2026 Fendy Ramadhani — Venzone.id
+  </p>
+
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
+<script src="js/home.js"></script>
+<script src="js/contact.js"></script>
+
+</body>
+</html>
